@@ -22,7 +22,10 @@ export default function HomeFeed() {
         </View>
         <View style={styles.topContainerRight}>
           <View>
-            <Image source={require("../assets/images/avatar.png")} style={styles.welcomeImage} />
+            <Image
+              source={require("../assets/images/avatar.png")}
+              style={styles.welcomeImage}
+            />
           </View>
           <View style={styles.journalButton}>
             <Text style={styles.journalButtonText}>Explore</Text>
@@ -101,6 +104,10 @@ const styles = StyleSheet.create({
   streakNumber: {
     color: "white",
     fontSize: 30,
+<<<<<<< HEAD:screens/HomeFeed.js
+    lineHeight: 25,
+=======
+>>>>>>> 2ab1519b7c94d6d4c6143f19520822e0b6a0bc84:screens/Journal.js
 
     fontWeight: "bold",
   },
